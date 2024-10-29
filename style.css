@@ -1,0 +1,170 @@
+body{
+    
+    background-size: cover;    /* Makes the image cover the entire screen */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+header  {
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+    font-family: consolas;
+    font-weight: 800;
+    list-style-type: none; /* Removes bullet points */
+    display: flex; /* Aligns items in a row */
+    justify-content: center; /* Centers the items horizontally */
+}
+
+
+/*Navbar*/
+
+.navbar ul {
+    list-style-type: none; /* Removes bullet points */
+    display: flex; /* Aligns items in a row */
+    justify-content: center; /* Centers the items horizontally */
+    padding: 0; /* Removes default padding */
+    margin: 0;
+} 
+
+
+
+.navbar ul li {
+    padding: 10px;
+    margin: 0 25px; /* Adds space between each link */
+    font-size: 20px;
+}
+
+.navbar ul li {
+    color: #090118;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*About Section*/
+
+
+h1{
+    text-align: center;
+}
+h1 p{
+    text-align: center;
+    
+    text-decoration: solid;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-size-adjust: 2rem;
+    max-width: 600px;           
+    line-height: 1.6;           
+    padding: 20px;
+    margin:0;
+}
+
+
+/*Home*/
+
+.home{
+    text-align: center;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.home p{
+    text-align: center;
+    
+    
+}
+.stay{
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+/*Check-in Check-out*/
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-top: 25px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #111111;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #111111;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.facilites{
+    margin-bottom: 100px;
+}
+.facilites h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #181818;
+}
+
+/* Amenities Box Styles */
+.amenities-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between each amenity */
+    flex-wrap: nowrap; /* Keep all items in a single line */
+    overflow-x: auto; /* Enable horizontal scroll if content overflows */
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.amenity {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.amenity i {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.amenity p {
+    margin: 0;
+    font-size: 1em;
+    color: #666;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
