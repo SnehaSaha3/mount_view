@@ -6,7 +6,10 @@ body{
     background-attachment: fixed;
 }
 header  {
-    text-align: center;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    position: relative;
     padding: 10px;
     font-size: 40px;
     font-family: consolas;
@@ -14,6 +17,7 @@ header  {
     list-style-type: none; /* Removes bullet points */
     display: flex; /* Aligns items in a row */
     justify-content: center; /* Centers the items horizontally */
+    
 }
 
 
@@ -77,25 +81,25 @@ h1 p{
     
     
 }
-/* .stay{
-    padding: 20px 10px;
+.stay{
+    padding: 10px 10px;
     text-align: center;
     font-size: 25px;
-    margin-top: 50px;
-} */
+    margin-top: 40px;
+} 
 
 
 /*Check-in Check-out*/
-/* form {
-    max-width: 200px;
-    margin: 0 auto;
-    text-align: left;
+form {
     display: flex;
     justify-content: center;
-    gap: 20px; 
-}
+    gap: 10px;  
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 10px;
+ } 
 
-form label {
+ form label {
     display: block;
     margin-top: 20px;
 }
@@ -106,80 +110,33 @@ form input {
     margin-top: 5px;
     border: 2px solid #111111;
     border-radius: 5px;
-}  */
+} 
 
+.check-in{
+    margin: 0;
 
-
-/* form button {
-    /* background-color: #111111;
-    color: rgb(255, 255, 255);
-    padding: 10px 20px;
-    border: none;
-    margin-top: 20px;
-    cursor: pointer;
-    text-align: center; */
-    /* background-color: #111111;
-    color: rgb(255, 255, 255);
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    margin: 20px auto 0;
-    width: fit-content;
-    text-align: center;
-} * */
-.stay {
-    padding: 20px 10px;
-    text-align: center;
-    font-size: 25px;
-    margin-top: 50px;
 }
-
-/* Align form fields in one row */
-form {
-    max-width: 600px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    justify-content: space-between;
-    text-align: left;
-}
-
-/* Adjust label positioning */
-form label {
-    display: block;
-    font-size: 16px;
-    margin-bottom: 5px;
-}
-
-/* Input fields styling */
-form input {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    border: 2px solid #111111;
-    border-radius: 5px;
-}
-
 /* Set flex item for each field to create one row */
 form > div {
-    flex: 1 1 120px;
-}
+    flex: 1 1 150px; 
+} 
 
-/* Button styling and alignment */
 form button {
     background-color: #111111;
     color: rgb(255, 255, 255);
-    padding: 10px 20px;
+
+    
     border: none;
+    /* margin: 20px auto 0; */
+    /* margin: auto; */
+    margin-top:20px;
+    width: 100px;
     cursor: pointer;
-    margin: 20px auto 0;
-    width: fit-content;
     text-align: center;
+    /* font-size: 1rem; */
+    /* border-radius: 5px; */
 }
-
-
-
+  
 .facilites{
     margin-bottom: 100px;
     margin-top:100px;

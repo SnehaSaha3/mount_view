@@ -2,12 +2,35 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding:0;
+    padding:10px;
     margin: 0;
+    
+    /* margin-left: 30%;
+    margin-right: 30%;
+    height: 200px;
+    border: 2px #00C7EB solid;
+    border-radius: 10px; */
 }
  /* Responsive styling */
- @media (max-width: 600px) {
+ @media (max-width: 100px) {
     .map-container {
-        height: 300px;
+        height: 100px;
+        margin-left: 20%;
+        margin-right: 20%;
+        height: 100px;
+        border: 2px #00C7EB solid;
+        border-radius: 10px;
     }
 }
+/* iframe {
+    overflow-clip-margin: content-box !important;
+    overflow: clip !important;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}  */
+
+
+
+

@@ -25,22 +25,36 @@
         <h2>Book a Stay</h2>
         <form action="#" >
             <!-- Check-In and Check-Out Dates -->
-            <label for="checkin">Check-In Date:</label>
-            <input type="date" id="checkin" name="checkin" required>
+             <div class="check-in">
+               <label for="checkin"><span class="label-name">Check-In Date</span>
+               </label>
+               <input type="date" id="checkin" name="checkin" required>
+             </div>
+             
+             
+             <!-- Check-out -->
+             <div class="check-out">
+               <label for="checkout"><span class="label-name">Check-Out Date</span>
+               </label>
+               <input type="date" id="checkout" name="checkout" required>
+             </div>
     
-            <label for="checkout">Check-Out Date:</label>
-            <input type="date" id="checkout" name="checkout" required>
+             <!-- Number of Adults -->
+             <div class="num-adults">
+              <label for="adults"><span class="label-name">Number of Adults</span>
+              </label>
+              <input type="number" id="adults" name="adults" min="1" max="10" required>
+             </div>
     
-            <!-- Number of Adults -->
-            <label for="adults">Number of Adults:</label>
-            <input type="number" id="adults" name="adults" min="1" max="10" required>
-    
-            <!-- Number of Children -->
-            <label for="children">Number of Children:</label>
-            <input type="number" id="children" name="children" min="0" max="10">
+             <!-- Number of Children -->
+             <div class="num_children">
+              <label for="children"><span class="label-name">Number of Children</span>
+              </label>
+              <input type="number" id="children" name="children" min="0" max="10">
+             </div>
     
             <!-- Submit Button -->
-            <button type="submit">Book Now</button>
+            <button class="Book" type="submit">Book Now</button>
         </form>
     </div>
     
@@ -73,17 +87,21 @@
 
 
     </div>
+    <div class="resturant">
+        <h2>Restaurant</h2>
+        
+    </div>
     <div>
         <h1>Location of Hotel</h1>
     <div class="map-container">
     <div style="text-decoration:none; overflow:hidden;max-width:100%;width:800px; border-radius:20px; height:500px;"><div id="embedded-map-display" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=the+hotel+mount+view+pelling&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="embed-ded-maphtml" rel="nofollow" href="https://www.bootstrapskins.com/themes" id="authmaps-data">premium bootstrap themes</a><style>#embedded-map-display img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style></div>
     </div>
     </div>
-    
-    
-    
-
 </body> 
+
+
+
+
 <footer>
     <div class="contact">
         <h2>Contact</h2>
