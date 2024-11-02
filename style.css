@@ -85,8 +85,17 @@ h1 p{
     padding: 10px 10px;
     text-align: center;
     font-size: 25px;
-    margin-top: 40px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 } 
+.stay h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #1f5cac;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
 
 
 /*Check-in Check-out*/
@@ -97,6 +106,10 @@ form {
     margin-left: 20%;
     margin-right: 20%;
     padding: 10px;
+    flex-wrap: nowrap; /* Keep all items in a single line*/
+    overflow-x: auto; /* Enable horizontal scroll if content overflows*/
+    padding: 10px 0;
+    margin-top: 20px;  
  } 
 
  form label {
@@ -113,28 +126,64 @@ form input {
 } 
 
 .check-in{
-    margin: 0;
+    background-color: #f9f9f9;
+    border: 1px solid  #1a5b79;
+    border-radius: 8px;
+    width: 80px;
+    height: 90px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
 
+}
+.check-out{
+    background-color: #f9f9f9;
+    border: 1px solid  #1a5b79;
+    border-radius: 8px;
+    width: 80px;
+    height: 90px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
+}
+.num-adults{
+    background-color: #f9f9f9;
+    border: 1px solid #1a5b79;
+    border-radius: 8px;
+    width: 80px;
+    height: 90px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
+}
+.num_children{
+    background-color: #f9f9f9;
+    border: 1px solid  #1a5b79;
+    border-radius: 8px;
+    width: 80px;
+    height: 90px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
 }
 /* Set flex item for each field to create one row */
 form > div {
-    flex: 1 1 150px; 
+    flex: 1 1 100px; 
 } 
 
 form button {
-    background-color: #111111;
-    color: rgb(255, 255, 255);
-
-    
-    border: none;
-    /* margin: 20px auto 0; */
-    /* margin: auto; */
+    display: flexbox;
     margin-top:20px;
-    width: 100px;
+    width: 80px;
+    height: 70px;
     cursor: pointer;
     text-align: center;
-    /* font-size: 1rem; */
-    /* border-radius: 5px; */
+    font-size: 1rem; 
+    background-color:  #1a5b79;
+    border: 2px solid  #1a5b79;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(8, 1, 1, 0.1);
 }
   
 .facilites{
