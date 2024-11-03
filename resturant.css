@@ -1,0 +1,80 @@
+/* Add basic styling for the restaurant section */
+.resturant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Style the main headings */
+.resturant h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+/* Define the layout for cuisine and open sections */
+.cuisine, .open {
+    flex: 1;
+    padding: 10px;
+}
+
+/* Divide the table into two sides */
+.cuisine, .open {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+}
+
+.resturant > .cuisine, .open {
+    display: inline-block;
+    width: 45%;
+    align-content: horizontal ;
+}
+
+.cuisine ul, .open ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin: 10px;
+}
+
+.cuisine li, .open li {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+}
+
+/* Add icons for cuisine types */
+.cuisine li::before {
+    content: "\f2e7"; /* Change this with an icon if needed */
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin-right: 10px;
+    color: #d35400;
+}
+
+/* Add icons for open timings */
+.open li::before {
+    content: "\f073"; /* Calendar icon for timing (Font Awesome) */
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin-right: 10px;
+    color: #2980b9;
+}
+
+/* Responsive adjustment */
+@media screen and (max-width: 768px) {
+    .cuisine, .open {
+        width: 100%;
+    }
+}
