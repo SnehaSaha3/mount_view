@@ -13,7 +13,7 @@
     margin-right: 8%;
 }
 
-/* .resturant .container .card {
+.resturant .container .card {
     height: 100px;
     width: 45%;
     border: 2px #313435 solid;
@@ -29,4 +29,4 @@
 }
 .item .items{
     flex-wrap:wrap;
-} */
+}
