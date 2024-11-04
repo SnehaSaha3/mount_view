@@ -1,80 +1,32 @@
-/* Add basic styling for the restaurant section */
-.resturant {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 600px;
-    margin: 20px auto;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    font-family: Arial, sans-serif;
-}
-
-/* Style the main headings */
-.resturant h2 {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    color: #333;
+.resturant h2{
     text-align: center;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(29, 36, 36);
 }
 
-/* Define the layout for cuisine and open sections */
-.cuisine, .open {
-    flex: 1;
-    padding: 10px;
-}
-
-/* Divide the table into two sides */
-.cuisine, .open {
+.resturant .container {
+    margin-top: 40px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 18px;
+    flex-wrap: wrap;
+    margin-left: 8%;
+    margin-right: 8%;
 }
 
-.resturant > .cuisine, .open {
-    display: inline-block;
+/* .resturant .container .card {
+    height: 100px;
     width: 45%;
-    align-content: horizontal ;
-}
-
-.cuisine ul, .open ul {
-    list-style: none;
-    padding: 0;
-    text-align: left;
-    margin: 10px;
-}
-
-.cuisine li, .open li {
+    border: 2px #313435 solid;
+    margin: 20px;
+    border-radius: 10px;
     display: flex;
-    align-items: center;
-    margin: 8px 0;
+    justify-content: flex-start;
 }
+.container .card h3{
+    display:block;
 
-/* Add icons for cuisine types */
-.cuisine li::before {
-    content: "\f2e7"; /* Change this with an icon if needed */
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 900;
-    margin-right: 10px;
-    color: #d35400;
-}
 
-/* Add icons for open timings */
-.open li::before {
-    content: "\f073"; /* Calendar icon for timing (Font Awesome) */
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 900;
-    margin-right: 10px;
-    color: #2980b9;
 }
-
-/* Responsive adjustment */
-@media screen and (max-width: 768px) {
-    .cuisine, .open {
-        width: 100%;
-    }
-}
+.item .items{
+    flex-wrap:wrap;
+} */
