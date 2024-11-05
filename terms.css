@@ -1,0 +1,24 @@
+.terms h2{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 3em;
+    font-family: cursive,Arial, Helvetica, sans-serif;
+}
+
+.terms .container{
+    display: flex;
+    justify-content: center ;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 40px;
+}
+
+.terms .container ul{
+    margin-top: 30px;
+    padding-bottom: 20px;
+  }
+.container ul li{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: cursive,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
