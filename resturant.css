@@ -4,6 +4,7 @@
     font-family: Arial, Helvetica, sans-serif;
     color:rgb(29, 36, 36);
     font-display: block;
+    margin-right: 80px;
     
 }
 
@@ -73,23 +74,31 @@
   .resturant .container .card{
     width: 100%;
     margin: 0;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .resturant .container .card{
-    width: 100%;
-    margin: 0;
-    margin-bottom: 40px;
+    width: 48%;
+    margin: 1%;
+    margin-bottom: 30px;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .resturant .container .card{
-    width: 100%;
-    margin: 0;
+    width: 32%;
+    margin: 1%;
     margin-bottom: 40px;
   }
+}
+
+  @media (min-width: 1200px) {
+     .restaurant .container .card {
+      width: 24%;            
+      margin: 0.5%;          
+      margin-bottom: 40px;
+    }
 }
 
 

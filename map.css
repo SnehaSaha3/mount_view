@@ -1,15 +1,14 @@
+.map h2{
+    text-align: center;
+    font-size:2em;
+    margin-top: 70px;
+}
 .map-container {
     display: flex;
     justify-content: center;
     align-items: center;
     padding:10px;
     margin: 0;
-    
-    /* margin-left: 30%;
-    margin-right: 30%;
-    height: 200px;
-    border: 2px #00C7EB solid;
-    border-radius: 10px; */
 }
  /* Responsive styling */
  @media (max-width: 100px) {
@@ -22,14 +21,7 @@
         border-radius: 10px;
     }
 }
-/* iframe {
-    overflow-clip-margin: content-box !important;
-    overflow: clip !important;
-    border-width: 2px;
-    border-style: inset;
-    border-color: initial;
-    border-image: initial;
-}  */
+
 
 
 
