@@ -11,7 +11,7 @@ header  {
     justify-content: center;
     position: relative;
     padding: 10px;
-    font-size: 40px;
+    font-size: 4em;
     font-family: consolas;
     font-weight: 800;
     list-style-type: none; /* Removes bullet points */
@@ -36,11 +36,11 @@ header  {
 .navbar ul li {
     padding: 10px;
     margin: 0 25px; /* Adds space between each link */
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .navbar ul li {
-    color: #090118;
+    color: #902899;
     text-decoration: none;
     font-weight: bold;
 }
@@ -55,7 +55,7 @@ h1 p{
     text-align: center;
     
     text-decoration: solid;
-    font-size: 20px;
+    font-size: 60px;
     font-family: 'Times New Roman', Times, serif;
     text-size-adjust: 2rem;
     max-width: 600px;           
@@ -92,7 +92,7 @@ h1 p{
     text-align: center;
     margin-bottom: 20px;
     font-size: 2em;
-    color: #1f5cac;
+    color: #230535;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -179,8 +179,8 @@ form button {
     cursor: pointer;
     text-align: center;
     font-size: 1rem; 
-    background-color:  #1a5b79;
-    border: 2px solid  #1a5b79;
+    background-color:  #578ba3;
+    border: 3px solid  #080e11;
     border-radius: 5px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(8, 1, 1, 0.1);

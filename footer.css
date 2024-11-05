@@ -1,5 +1,5 @@
 footer {
-    background-color: #1a8a92;
+    background-color: #768a8b;
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -7,10 +7,11 @@ footer {
 }
 
 footer .contact{
-    margin-right:30px;
+    margin-left:1500px
+
 
 }
 footer p {
     margin: 0;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
