@@ -24,7 +24,8 @@
     border-radius: 10px;
     display: flex;
     justify-content: flex-start;
-}
+} 
+
 .container .card h3{
     display:block;
     font-family: Consolas;
@@ -32,6 +33,7 @@
     margin-left: 20px;
     font-size: 1.5em;
 }
+
 .item{
     display: flex;
     width: 100%;
@@ -52,18 +54,18 @@
   
 @media (max-width: 575.98px) {
   .resturant .container .card{
-    width: 100%;
+    width: 50%;
     margin: 0;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     height: auto;
   }
   .resturant .container{
-    margin-left: 4%;
-    margin-right: 4%;
+    margin-left: 3%;
+    margin-right: 3%;
   }
 
   .resturant h3{
-    font-size: 25px;
+    font-size: 20px;
   }
   .items p{
     font-family: 'Times New Roman', Times, serif;
@@ -74,9 +76,10 @@
   .resturant .container .card{
     width: 100%;
     margin: 0;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 }
+
 @media (min-width: 768px) and (max-width: 991.98px) {
   .resturant .container .card{
     width: 48%;
@@ -93,7 +96,7 @@
   }
 }
 
-  @media (min-width: 1200px) {
+@media (min-width: 1200px) {
      .restaurant .container .card {
       width: 24%;            
       margin: 0.5%;          
