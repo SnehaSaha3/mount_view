@@ -5,13 +5,22 @@ footer {
     padding: 10px 0;
     margin-top: 20px;
 }
-
-footer .contact{
-    margin-left:1500px;
+/* .contact{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 800px;
+    justify-content: space-around;
+}
+.contact h2{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 3em;
+    font-family: cursive,Arial, Helvetica, sans-serif;
 }
 
-
-footer p {
-    margin: 0;
-    font-size: 1.5rem;
-}
+.contact p{
+    margin-top: 30px;
+    margin:0;
+    font-size: 2em;
+    font-family: cursive,Arial, Helvetica, sans-serif;
+} */
